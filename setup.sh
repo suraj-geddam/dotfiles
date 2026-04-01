@@ -20,4 +20,9 @@ link "$DOTFILES_DIR/zshrc"         "$HOME/.zshrc"
 link "$DOTFILES_DIR/ghostty/config" "$HOME/.config/ghostty/config"
 link "$DOTFILES_DIR/starship.toml"  "$HOME/.config/starship.toml"
 
+# git
+git config --global user.name "Suraj Geddam"
+git config --global user.email "suraj.geddam@gmail.com"
+echo "Set git global user to Suraj Geddam <suraj.geddam@gmail.com>"
+
 echo "Done!"
