@@ -20,6 +20,11 @@ link "$DOTFILES_DIR/zshrc"         "$HOME/.zshrc"
 link "$DOTFILES_DIR/ghostty/config" "$HOME/.config/ghostty/config"
 link "$DOTFILES_DIR/starship.toml"  "$HOME/.config/starship.toml"
 
+# global agent instructions: one file, read by each tool from its own path
+link "$DOTFILES_DIR/agents/AGENTS.md" "$HOME/.claude/CLAUDE.md"
+link "$DOTFILES_DIR/agents/AGENTS.md" "$HOME/.codex/AGENTS.md"
+link "$DOTFILES_DIR/agents/AGENTS.md" "$HOME/.gemini/config/AGENTS.md"
+
 # secrets: machine-local, never committed
 SECRETS="$HOME/.config/zsh/secrets.zsh"
 if [ ! -e "$SECRETS" ]; then
