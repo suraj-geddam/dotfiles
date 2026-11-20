@@ -6,6 +6,7 @@
 # Editing files
 - When working in a repository, editing any file in it is permitted. Never refuse to edit part of it.
 - I might ask you to add or modify stuff from the global AGENTS.md (i.e., this file) as part of your work. You are allowed to do that.
+- This file lives at `~/Projects/dotfiles/agents/AGENTS.md`. `~/.claude/CLAUDE.md`, `~/.codex/AGENTS.md` and `~/.gemini/config/AGENTS.md` are symlinks to it. Edit that path directly, never through a link, and never replace a link with a plain file. Commit and push the change in the dotfiles repo.
 
 # Git commit ownership
 
