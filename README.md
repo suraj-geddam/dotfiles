@@ -15,4 +15,4 @@ API keys and tokens don't go in `zshrc`. They live in `~/.config/zsh/secrets.zsh
 
 ## Agent instructions
 
-[`agents/AGENTS.md`](agents/AGENTS.md) holds the global instructions for coding agents. `setup.sh` links it into each tool's global path: `~/.claude/CLAUDE.md` (Claude Code), `~/.codex/AGENTS.md` (Codex) and `~/.gemini/config/AGENTS.md` (Antigravity). Edit the file here; editing through a link can replace the link with a plain copy, so check with `ls -l` afterwards.
+[`agents/AGENTS.md`](agents/AGENTS.md) holds the global instructions for coding agents. `setup.sh` links it into each tool's global path: `~/.claude/CLAUDE.md` (Claude Code), `~/.codex/AGENTS.md` (Codex) and `~/.gemini/AGENTS.md` (Antigravity). Edit the file here; editing through a link can replace the link with a plain copy, so check with `ls -l` afterwards.

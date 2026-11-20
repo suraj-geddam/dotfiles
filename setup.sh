@@ -23,7 +23,7 @@ link "$DOTFILES_DIR/starship.toml"  "$HOME/.config/starship.toml"
 # global agent instructions: one file, read by each tool from its own path
 link "$DOTFILES_DIR/agents/AGENTS.md" "$HOME/.claude/CLAUDE.md"
 link "$DOTFILES_DIR/agents/AGENTS.md" "$HOME/.codex/AGENTS.md"
-link "$DOTFILES_DIR/agents/AGENTS.md" "$HOME/.gemini/config/AGENTS.md"
+link "$DOTFILES_DIR/agents/AGENTS.md" "$HOME/.gemini/AGENTS.md"
 
 # secrets: machine-local, never committed
 SECRETS="$HOME/.config/zsh/secrets.zsh"
